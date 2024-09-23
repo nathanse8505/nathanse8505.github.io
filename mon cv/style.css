@@ -1,0 +1,142 @@
+
+@font-face 
+{
+    font-family: 'Roboto-Regular-webfont'; /* Famille des polices */
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face 
+{
+    font-family: 'CandelaBold-webfont'; /* 2e familles de polices */
+    src: url('CandelaBold-webfont.eot');
+    src: url('CandelaBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CandelaBold-webfont.woff') format('woff'),
+         url('CandelaBold-webfont.ttf') format('truetype'),
+         url('CandelaBold-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html
+{
+	
+	 text-align:center;
+}
+
+body
+{
+    background-image: url('backS.png'); /* image de fond */
+}
+
+nav
+{
+   
+    margin-right: 500px;
+     margin-left: 520px;
+    background-color: dimgray;
+    padding: 10px;
+}
+nav ul 
+{
+    overflow: hidden;
+}
+
+
+nav a
+{
+    font-size: 25px;  
+    color: black;  
+    text-decoration: none; 
+    font-family:'calibri','arial','CandelaBold-webfont','Roboto-Regular-webfont';
+    
+    
+}
+nav li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 10px
+       
+    
+}
+ol,ul{
+    list-style-type: none;
+}
+
+
+h1 /* Particularité des titres */
+{
+    font-family: 'CandelaBold-webfont', 'Roboto-Regular-webfont', 'Arial', sans-serif;  
+}
+
+h1
+{
+    font-size: 50px;  
+    padding-bottom: 5px;  
+    border: 5px solid dimgray;  
+    margin-left: 200px;
+    margin-right:200px; 
+}
+
+
+
+img /* particularité image */
+{
+    border: 5px dotted dimgray;  
+    box-shadow: 2px 2px 2px black;  
+    max-height: 150px; 
+    position:absolute;
+    left:40px;
+
+}
+
+h2
+{
+    font-size: large;  
+    padding: 5px;  
+    color: white;  
+    background-color: dimgray
+	
+}
+
+#ID p:hover
+{
+    
+    text-shadow: 2px 2px 4px dimgray;  
+ 
+}
+
+footer.class
+{
+    text-align:center;
+    float: center;  
+}
+
+
+
+footer
+{
+    background-color: dimgray;  
+    text-align:center;
+    list-style-type: none;  
+    display:inline-block;    
+    
+}
+
+
+
+
+
+
+
+
+
+

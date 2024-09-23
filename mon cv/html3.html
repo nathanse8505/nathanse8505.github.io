@@ -1,0 +1,106 @@
+<!DOCTYPE html> <!-- Le doctype indique qu’il s’agit d’une page HTML -->
+<html>
+	
+	
+	
+    <head>
+        <meta charset="utf-8" />
+        <title>Nathan Sebag</title> <!-- Cette balise title représente le nom du site qui s'affiche -->
+        <link rel="stylesheet" href="css3.css" />
+    
+    </head>
+    
+    
+    
+ 
+    
+   
+    <header>
+        <nav>
+            <div >
+            <ul class ="header"> <!-- Ceci est une liste non ordonnée -->
+                <li ><a href="%D7%A7%D7%95%D7%A8%D7%95%D7%AA_%D7%97%D7%99%D7%99%D7%9D.html">עמוד ראשי</a></li> <!-- Ici nous trouvons les mots de la liste avec la balise li-->
+                <li><a href="html2.html">קורות חיים</a></li> <!-- Ici nous trouvons les mots de la liste avec la balise li-->
+                <li><a href="html3.html">ליצור קשר</a></li> <!-- Ici nous trouvons les mots de la liste avec la balise li-->
+            </ul> 
+           </div><!-- Ici on ferme la balise de la liste -->
+        </nav> <!-- Ici on ferme la balise nav --> 
+            
+    </header> <!-- Ici on ferme la balise du header -->
+	
+		
+<h1>צור קשר</h1>
+
+    <body>  <!-- La balise body est le corps de la page, c'est dans cette partie que le code est écrit -->
+        
+
+     <form method="post" action="traitement.php"> 
+        <table>
+              <tr>
+              <td> <input type="text" name="pseudo" id="pseudo" /></td> <!-- Nous pouvons ici remplir la 1er ligne du formulaire grace au type text -->
+               <td><label for="pseudo">שם פרטי</label></td> 
+               <!-- Cela est le titre de la 1er ligne du formulaire -->
+               </tr>
+               <br/> <!-- Un titre de niveau 1 -->
+                <tr>
+                <td><input type="text" name="prenom" id="prenom" /></td>  <!-- Nous pouvons ici remplir la 2e ligne du formulaire grace au type text -->
+                <td><label for="prenom">שם משפחה</label></td> 
+               <!-- Cela est le titre de la 2e ligne du formulaire -->
+                </tr>
+                <br /> <!-- Un titre de niveau 1 -->               
+               <tr>
+                 <td><input type="email" name="email" id="email" /></td> <!-- Nous pouvons ici remplir la 3e ligne du formulaire grace au type text -->
+                 <td><label for="email">מייל</label></td>
+               <!-- Cela est le titre de la 3e ligne du formulaire --> 
+                </tr> 
+               <tr>
+                   <td> <input type="tel" name="tel" id="tel"/> </td>
+                   <td><label for="tel">מספר טלפון</label></td>
+               </tr>
+        </table>
+
+       <p>
+       <select name="pays" id="pays">
+           <option value="israel">Israel</option>
+           <option value="france">France</option>
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="canada">Canada</option>
+           <option value="etats-unis">États-Unis</option>
+           <option value="chine">Chine</option>
+           <option value="japon">Japon</option>
+          
+       </select>
+            <label for="pays"> איפה אתה גר? </label>
+        </p>         
+        <p>
+            <textarea  type="text" name="commentaire" id="commentaire">
+            </textarea>
+            <label for="commentaire">הערות</label> 
+            <br/>
+            <br/> 
+             <input type="submit" value="שלח" id="envoi"/>
+        </p>
+         
+       </form>
+       <!-- <p class="survol" >Lien vers mon <a href="https://www.linkedin.com/feed/?trk=nav_logo">LinkedIn</a> <br /> </p>  Ceci est un lien externe -->
+        
+        
+        <footer> <!-- On ouvre le bas de page avec le footer -->
+
+        <nav class="footer">
+            <div>
+            <ul> <!-- Ceci est une liste non ordonnée -->
+                <li><a href="https://www.jce.ac.il/"target="_blank">Azrieli</a></li>
+                <li><a href="mailto:natounou88@gmail.com">mail</a></li>
+                <li><a href="https://www.instagram.com/nathansebag/?hl=fr" target="_blank">Instagram</a></li>
+            </ul> 
+            </div>
+        </nav> <!-- Ici on ferme la balise nav -->   
+            
+        </footer> 
+             
+        
+    </body>
+</html> 
